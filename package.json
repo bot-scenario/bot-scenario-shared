@@ -1,6 +1,6 @@
 {
   "name": "botscenario-shared",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -22,7 +22,10 @@
     "dotenv": "^16.0.3"
   },
   "dependencies": {
+    "amqplib": "^0.10.3",
     "http-status": "^1.6.2",
-    "joi": "^17.8.4"
+    "joi": "^17.8.4",
+    "node-fetch": "^3.3.1",
+    "uuid": "^9.0.0"
   }
 }

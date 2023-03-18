@@ -10,3 +10,11 @@ export {
   withErrorHandlingReply,
   replyOnErrorOnly,
 } from './src/services-util/fastify/with-error-reply-handling.js'
+export {
+  connectQueueService,
+  createChanel,
+  consumeQueue,
+  initializeQueue,
+} from './src/libs/queue-service.js'
+export { get, post, put, patch, deleteApi, http } from './src/libs/http/http.js'
+export { HTTP_METHODS } from './src/libs/http/http-method.js'
