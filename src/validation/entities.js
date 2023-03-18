@@ -1,5 +1,5 @@
 import joi from 'joi'
-import { APPLICATION } from '../services-util/constants/applications.js'
+import { APPLICATION } from '../constants/applications.js'
 
 export const configurationSchema = joi.object().keys({
   token: joi.string().required(),
