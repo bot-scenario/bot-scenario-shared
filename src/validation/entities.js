@@ -13,4 +13,6 @@ export const configurationSchema = joi.object().keys({
     .string()
     .valid(...Object.values(APPLICATION))
     .required(),
+  userId: joi.string().required(),
+  tenantId: joi.string().required(),
 })
