@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fchangeltd/botscenario-shared.git"
+    "url": "git+https://github.com/bot-scenario/bot-scenario-shared.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fchangeltd/botscenario-shared/issues"
+    "url": "https://github.com/bot-scenario/bot-scenario-shared/issues"
   },
-  "homepage": "https://github.com/fchangeltd/botscenario-shared#readme",
+  "homepage": "https://github.com/bot-scenario/bot-scenario-shared#readme",
   "dependencies": {
     "http-status": "^1.6.2",
     "joi": "^17.8.4",
