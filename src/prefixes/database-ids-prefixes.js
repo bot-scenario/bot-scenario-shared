@@ -1,5 +1,5 @@
 export const DATABASE_ID_PREFIX = Object.freeze({
-  CONFIGURATION: 'conf',
+  PLATFORM: 'plt',
   SCENARIO: 'scn',
   SCENARIO_VERSION: 'scn_ver',
   NODE: 'node',

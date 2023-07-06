@@ -1,7 +1,7 @@
 import joi from 'joi'
 import { APPLICATION } from '../constants/applications.js'
 
-export const configurationSchema = joi.object().keys({
+export const platformSchema = joi.object().keys({
   token: joi.string().required(),
   email: joi
     .string()
