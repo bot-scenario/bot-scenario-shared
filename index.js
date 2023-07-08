@@ -5,3 +5,8 @@ export { enumerateError, stringifyError } from './src/errors/util.js'
 export { HttpError } from './src/errors/HttpError.js'
 export { mapJoiErrorsToArray } from './src/validation/util.js'
 export { getUpdatedNewArrayItem } from './src/util/arrays.js'
+export {
+  filterItem,
+  enrichNodesWithLink,
+  enrichNodesWithLinks,
+} from './src/nodes-links/nodes-links-funcs.js'
