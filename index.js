@@ -10,3 +10,4 @@ export {
   enrichNodesWithLink,
   enrichNodesWithLinks,
 } from './src/nodes-links/nodes-links-funcs.js'
+export { NODE_TYPES } from './src/nodes-links/node-types.js'
