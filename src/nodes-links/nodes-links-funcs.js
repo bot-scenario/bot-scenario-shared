@@ -6,12 +6,12 @@ export const filterItem = ({ id, list }) => {
 
 export const enrichNodesWithLink = ({ connection, nodes }) => {
   const { source, target } = connection
-  const node = nodes.find((n) => n.id === source.id)
+  const node = nodes.find((n) => n.id === source)
   const links = node.links || []
 
-  const nodesUpdated = filterItem({ id: source.id, list: nodes }).concat({
+  const nodesUpdated = filterItem({ id: source, list: nodes }).concat({
     ...node,
-    links: [...links, target.id],
+    links: [...links, target],
   })
   return [...nodesUpdated]
 }
