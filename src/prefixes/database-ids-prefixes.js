@@ -6,4 +6,5 @@ export const DATABASE_ID_PREFIX = Object.freeze({
   FILE: 'file',
   GOOGLE_TOKENS: 'glg_tk',
   TENANT_CONFIGURE: 'tnt_cnf',
+  CHATTER: 'chtr',
 })
