@@ -7,4 +7,5 @@ export const DATABASE_ID_PREFIX = Object.freeze({
   GOOGLE_TOKENS: 'glg_tk',
   TENANT_CONFIGURE: 'tnt_cnf',
   CHATTER: 'chtr',
+  CHAT_MESSAGE: 'cht_msg',
 })
