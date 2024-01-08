@@ -1,4 +1,3 @@
-export { DATABASE_ID_PREFIX } from './src/prefixes/database-ids-prefixes.js'
 export { APPLICATION } from './src/constants/applications.js'
 export { platformSchema } from './src/validation/entities.js'
 export { enumerateError, stringifyError } from './src/errors/util.js'
